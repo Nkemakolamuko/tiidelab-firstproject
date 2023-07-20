@@ -88,8 +88,8 @@ h1,h2,h3,h4 {
 }
 
 .bg-primary {
-    background: black;
-    color: chartreuse;
+    color: black;
+    background: chartreuse;
 }
 
 /* Some Nav */
@@ -163,4 +163,16 @@ h1,h2,h3,h4 {
 
 #home_info .info-content p {
     padding-bottom: 35px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
 }
