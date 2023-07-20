@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* so paddings don't add to the actual width size */
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+h1,h2,h3,h4 {
+    padding-bottom: 20px;
+}
+
+.nav-bar {
+    background-color: rgb(3, 105, 109);
+    /* height: 100px; */
+    color: white;
+    overflow: auto;
+    /* background-size: 1000px; */
+}
+
+.nav-bar img {
+    float: left;
+    /* padding-top: -5px; */
+    /* padding-bottom: -5px; */
+    height: 170px;
+    width: 170px;
+}
+
+/* Utility  */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.primary-text {
+    color: chartreuse;
+}
+
+.lead {
+    font-size: 25px;
+    font-weight: 540;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    background-color: chartreuse;
+    padding: 13px 20px;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: inset 0 -10px 20px -10px rgb(255, 255, 255);
+}
+
+.btn-light {
+    background: chartreuse;
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: rgb(36, 51, 42);
+    color: white;
+}
+
+.bg-light {
+    background: white;
+    color: black;
+}
+
+.bg-primary {
+    color: black;
+    background: chartreuse;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 40px;
+}
+
+/* padding */
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+/* Some Nav */
+.nav-bar ul {
+    list-style-type: none;
+    float: right;
+    /* margin: 5px 5px; */
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    padding: 72px; /* the more you add, the more it grows */
+    text-align: center;
+}
+
+.nav-bar li a:hover,
+.nav-bar li a.current {
+    background-color: rgba(54, 115, 119, 0.76);
+    color: rgb(0, 255, 42);
+}
+
+/* Section 1 */
+#showcase {
+    background: url('../Images/pexels-pixabay-413960.jpg') no-repeat center center/cover;
+    height: 600px;
+    /* background-color: rgba(0, 0, 0, 20); */
+    background-color: rgb(124, 116, 116);
+    background-blend-mode: multiply;
+}
+
+#showcase .section2-content {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .section2-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .section2-content p {
+    padding-bottom: 25px;
+    line-height: 1.7em;
+}
+
+/* Home Info */
+#home_info {
+    height: 400px;
+}
+
+#home_info .info-image {
+    float: left;
+    width: 50%;
+    background: url('../Images/pexels-pixabay-164287.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home_info .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home_info .info-content p {
+    padding-bottom: 35px;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+
+/* About Page */
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url('../Images/pexels-oleksandr-canary-islands-1004584.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials .testimonials {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+#testimonials .testimonials img {
+    width: 130px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background:  rgb(36, 51, 42);
+    padding: 20px;
+    color: #fff;
+}
