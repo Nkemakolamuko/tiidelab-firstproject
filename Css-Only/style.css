@@ -97,7 +97,7 @@ h1,h2,h3,h4 {
 }
 
 .l-heading {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 /* padding */
@@ -207,7 +207,8 @@ h1,h2,h3,h4 {
 #about-info .info-right img {
     display: block;
     margin: auto;
-    width: 70%;
+    width: 85%;
+    height: 100%;
     border-radius: 50%;
 }
 
@@ -225,17 +226,54 @@ h1,h2,h3,h4 {
 }
 
 #testimonials .testimonials img {
-    width: 130px;
+    width: 100px;
+    height: 100px;
     float: right;
     margin-left: 20px;
     border-radius: 50%;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
-#testimonials h2 {
+#testimonials h1 {
     color: #fff;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+    margin-bottom: 30px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+} 
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline-color: cyan;
+}
+
+#contact-form input:hover,
+#contact-form textarea:hover {
+    border-color: chartreuse;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#contact-form textarea {
+    height: 200px;
 }
 
 
