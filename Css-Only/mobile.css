@@ -1,0 +1,67 @@
+.nav-bar img {
+    height: 80px;
+    width: 100px;
+    margin-left: 35%;
+}
+
+.nav-bar ul, .nav-bar ul li {
+    float: none;
+    padding: 20px 0px 5px 0px;
+}
+
+.nav-bar li a {
+    padding: 40px 0px 5px 0px;
+    border-bottom: 1px dotted gray;
+}
+
+.nav-bar li a:hover, .nav-bar li a.current {
+    background-color: rgba(3, 105, 109);
+    color: rgb(255, 255, 255);
+}
+
+/* Hone info */
+#home_info .info-image {
+    display: none;
+}
+
+#home_info .info-content {
+    float: none;
+    width: 100%;
+}
+
+#showcase .section2-content {
+    padding-top: 80px;
+}
+
+#showcase .section2-content p {
+    padding-bottom: 20px;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+/* Boxes */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About */
+#about-info .info-left,
+#about-info .info-right {
+    float: none;
+    width: 100%;
+}
+
+.l-heading {
+    text-align: center;
+}
+
+#about-info .info-right img {
+    border-radius: 30px;
+}
+
+#about-info .info-right {
+    padding-top: 30px;
+}
