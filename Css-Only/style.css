@@ -155,7 +155,7 @@ h1,h2,h3,h4 {
 
 /* Home Info */
 #home_info {
-    height: 400px;
+    height: 450px;
 }
 
 #home_info .info-image {
@@ -207,14 +207,14 @@ h1,h2,h3,h4 {
 #about-info .info-right img {
     display: block;
     margin: auto;
-    width: 85%;
+    width: 90%;
     height: 100%;
     border-radius: 50%;
 }
 
 /* Testimonials */
 #testimonials {
-    height: 600px;
+    height:100%;
     background: url('../Images/pexels-oleksandr-canary-islands-1004584.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
@@ -222,7 +222,7 @@ h1,h2,h3,h4 {
 #testimonials .testimonials {
     padding: 20px;
     margin-bottom: 40px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 #testimonials .testimonials img {
